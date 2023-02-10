@@ -1,7 +1,6 @@
 Jinja2
 numpy
 gunicorn
-Flask
 scikit-learn
 scipy
 pandas
