@@ -111,16 +111,5 @@ def predict_intent():
         return render_template("index.html")
 
 
-#response = openai.Completion.create(
-#  model="text-davinci-003",
-#  prompt="Summarize - Hello, I would like to know if there is any way of removing my monthly service fee? Because of the times we are going through I can not afford to pay$ 12 fee. Last statements they were able to remove it, and I would like to\nknow if they can remove it again\n\nThe author is asking if the monthly service fee can be removed due to financial hardship related to the current times. They note that it was removed previously and are asking if it can be done again.",
-#  temperature=0.7,
-#  max_tokens=256,
-#  top_p=1,
-#  frequency_penalty=0,
-#  presence_penalty=0
-#)
-
-
 if __name__ == '__main__':
     app.run(host='127.0.0.1', port=5000, debug=True)
