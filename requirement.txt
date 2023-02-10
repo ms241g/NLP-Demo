@@ -1,0 +1,12 @@
+Jinja2
+numpy
+gunicorn
+Flask
+scikit-learn
+scipy
+pandas
+openai
+tenacity
+matplotlib
+plotly
+flask
